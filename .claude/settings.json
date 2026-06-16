@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Process pythonw,llama-server -ErrorAction SilentlyContinue | Stop-Process -Force; Start-Sleep -Seconds 1; $proj = \"c:\\\\Users\\\\alabd\\\\Documents\\\\GitHub\\\\AIAPP\\\\local_gemma_chat\"; Start-Process -FilePath \"$proj\\\\.venv\\\\Scripts\\\\pythonw.exe\" -ArgumentList \"chat_app.py\" -WorkingDirectory $proj; Write-Output \"Relaunched with file attach + save.\"; Start-Sleep -Seconds 14; Get-Process pythonw,llama-server -ErrorAction SilentlyContinue | Select-Object Name,Id | Format-Table -AutoSize)"
+    ]
+  }
+}
