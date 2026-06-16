@@ -1,0 +1,4 @@
+# Install the CPU build with:
+#   pip install -r requirements.txt --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+llama-cpp-python
+huggingface-hub
