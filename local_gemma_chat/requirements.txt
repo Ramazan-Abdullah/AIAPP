@@ -1,4 +1,11 @@
-# Install the CPU build with:
-#   pip install -r requirements.txt --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
-llama-cpp-python
+# Python deps for the app (install into the .venv):
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt
+# The inference engine itself is the bundled llama.cpp binary in ./llama_bin
+# (not a pip package), chosen because the prebuilt llama-cpp-python wheel
+# requires AVX-512, which this CPU lacks.
 huggingface-hub
+psutil
+customtkinter
+pillow
+pypdf
+python-docx

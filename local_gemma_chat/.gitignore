@@ -3,9 +3,13 @@
 
 # Bundled llama.cpp binaries (download from github.com/ggml-org/llama.cpp/releases)
 llama_bin/
+llama_bin_cuda/
 
 # Runtime artifacts
 server.log
+chats.db
+chats.db-wal
+chats.db-shm
 __pycache__/
 *.pyc
 
